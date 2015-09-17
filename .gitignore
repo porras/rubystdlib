@@ -1,0 +1,4 @@
+checksum.md5
+fiddle/*.so
+fiddle/*.o
+mydata.*
