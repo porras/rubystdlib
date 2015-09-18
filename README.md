@@ -32,6 +32,8 @@ To run the `fiddle` example, change into its directory, and run `make run`:
 
 This will compile the C code (you will need `make` and `gcc` installed, these instructions for [Mac](http://stackoverflow.com/questions/9353444/how-to-use-install-gcc-on-mac-os-x-10-8-xcode-4-4/9353468#9353468), [Ubuntu](https://help.ubuntu.com/community/InstallingCompilers#Installing_the_GNU_C_compiler_and_GNU_C.2B-.2B-_compiler) and [Windows](http://preshing.com/20141108/how-to-install-the-latest-gcc-on-windows/) can probably help), and run the example.
 
+The `fiddle/go` directory contains the example redone (partially, only the most basic part, for demonstration purposes) in Go. It works the same (`make run`), but it requires Go 1.5.
+
 ## Reference links
 
 * [http://www.mikeperham.com/2010/11/22/the-ruby-stdlib-is-a-ghetto/](http://www.mikeperham.com/2010/11/22/the-ruby-stdlib-is-a-ghetto/)
@@ -41,6 +43,7 @@ This will compile the C code (you will need `make` and `gcc` installed, these in
 * [http://www.jstorimer.com/pages/ruby-core-classes-arent-thread-safe](http://www.jstorimer.com/pages/ruby-core-classes-arent-thread-safe)
 * [http://iamserg.io/writings/2014/queue-and-sized-queue/](http://iamserg.io/writings/2014/queue-and-sized-queue/)
 * [http://blog.skylight.io/bending-the-curve-writing-safe-fast-native-gems-with-rust/](http://blog.skylight.io/bending-the-curve-writing-safe-fast-native-gems-with-rust/)
+* [http://blog.paracode.com/2015/08/28/ruby-and-go-sitting-in-a-tree](http://blog.paracode.com/2015/08/28/ruby-and-go-sitting-in-a-tree)
 * [https://robm.me.uk/ruby/2014/01/25/pstore.html](https://robm.me.uk/ruby/2014/01/25/pstore.html)
 * [http://www.rubydoc.info/stdlib/set](http://www.rubydoc.info/stdlib/set)
 * [http://www.rubydoc.info/stdlib/thread/Queue](http://www.rubydoc.info/stdlib/thread/Queue)
