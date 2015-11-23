@@ -24,13 +24,13 @@ num_workers = 20
 queue = Queue.new
 threads = num_workers.times.map do
   Thread.new do
-    until (item = queue.pop) == :END
+    while item = queue.pop
       do_something(:QUEUE, item)
     end
   end
 end
 list.each { |item| queue << item }
-num_workers.times { queue << :END }
+queue.close
 threads.each(&:join)
 
 # sized queue
@@ -38,11 +38,11 @@ num_workers = 20
 queue = SizedQueue.new(num_workers * 2)
 threads = num_workers.times.map do
   Thread.new do
-    until (item = queue.pop) == :END
+    while item = queue.pop
       do_something(:SIZEDQUEUE, item)
     end
   end
 end
 list.each { |item| queue << item }
-num_workers.times { queue << :END }
+queue.close
 threads.each(&:join)
