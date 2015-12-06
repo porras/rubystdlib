@@ -1,5 +1,7 @@
 checksum.md5
 mydata.*
 **/*.so
+**/*.dylib
+**/.crystal
 **/*.o
 **/*.h
