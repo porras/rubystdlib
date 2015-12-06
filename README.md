@@ -1,6 +1,10 @@
 [![5 hidden gems of the Ruby Standard Library](https://speakerd.s3.amazonaws.com/presentations/1648cae6655042b09737acd0dfd3ca6f/slide_0.jpg?1442427628)](https://speakerdeck.com/porras/5-hidden-gems-of-the-ruby-standard-library)
 
-These are the slides, code examples and reference links for my talk *“5 hidden gems of the Ruby Standard Library“*, as presented in [Rubyconf Portugal 2015](http://rubyconf.pt/), in Braga (Portugal), 14-15 September 2015.
+These are the slides, code examples and reference links for my talk *“5 hidden gems of the Ruby Standard Library“*, as presented in:
+
+* [Rubyconf Portugal 2015](http://rubyconf.pt/), in Braga (Portugal), 14-15 September 2015.
+* [Rails Israel 2015](https://railsisrael2015.events.co.il/home), in Tel Aviv (Israel), 24 November 2015.
+* [Ruby OnlineConf](http://ruby.conf.online/), 2-4 December 2015
 
 ## Code examples
 
