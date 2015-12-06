@@ -15,7 +15,9 @@ If you listened to the talk and were paying attention, you might have noticed th
 
 ### Running the examples
 
-All the examples work and are tested with MRI Ruby 2.2.2. Some of them probably work with every version of every Ruby, some other definitely not. If you find one that doesn't work in some Ruby implementation and the fix is easy, pull requests are welcome :)
+All the examples work and are tested with MRI Ruby 2.2.2<sup>1</sup>. Some of them probably work with every version of every Ruby, some other definitely not. If you find one that doesn't work in some Ruby implementation and the fix is easy, pull requests are welcome :)
+
+> <sup>1</sup> the `queue` example can be simplified thanks to an addition in Ruby 2.3. See [this branch](https://github.com/porras/rubystdlib/blob/ruby-2.3/queue.rb).
 
 There is one file per library, except for `fiddle`, for which there is a directory.
 
